@@ -1,67 +1,96 @@
-🔐 Hash Generator Tool
 
-A Python-based Hash Generator Tool that supports multiple cryptographic hashing algorithms.
-This project includes both a Command-Line Interface (CLI) and a GUI implementation using Tkinter.
 
-🚀 Features
+# 🔐 Hash Generator Tool
 
-Generate hashes using:
+A Python-based **Hash Generator Tool** that supports multiple cryptographic hashing algorithms.
 
-MD5
+This project includes both:
 
-SHA-1
+* 🖥️ Command-Line Interface (CLI)
+* 🖥️ GUI implementation using Tkinter
 
-SHA-256
+---
 
-SHA-512
+## 🚀 Features
 
-CLI Version (Simple terminal-based tool)
+* Generate hashes using:
 
-GUI Version (Tkinter-based desktop application)
+  * MD5
+  * SHA-1
+  * SHA-256
+  * SHA-512
+* CLI Version (Terminal-based tool)
+* GUI Version (Tkinter desktop application)
+* Input validation with error handling
+* Clean and beginner-friendly code structure
 
-Input validation with error handling
+---
 
-Clean and beginner-friendly code structure
+## 🛠 Technologies Used
 
-🛠 Technologies Used
+* Python 3
+* `hashlib` (Built-in Python library)
+* `tkinter` (GUI library)
 
-Python 3
+---
 
-hashlib (built-in library)
+## 📂 Project Structure
 
-tkinter (GUI library)
-
-📂 Project Structure
+```
 hash-generator-tool/
 │
 ├── simple_password_hasher.py   # CLI Version
 ├── gui_show.py                 # GUI Version
 └── README.md
-▶️ How to Run
-1️⃣ Run CLI Version
+```
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Run CLI Version
+
+```bash
 python simple_password_hasher.py
-2️⃣ Run GUI Version
+```
+
+### 2️⃣ Run GUI Version
+
+```bash
 python gui_show.py
-🧠 What I Learned
+```
 
-Fundamentals of cryptographic hash functions
+---
 
-Difference between MD5, SHA-1, SHA-256, and SHA-512
+## 🧠 What I Learned
 
-Event-driven programming in Python
+* Fundamentals of cryptographic hash functions
+* Difference between MD5, SHA-1, SHA-256, and SHA-512
+* Event-driven programming in Python
+* Connecting backend logic with GUI components
+* Input validation and user interaction handling
 
-Connecting backend logic with GUI components
+---
 
-Input validation and user interaction handling
+## 🔮 Future Improvements
 
-🔮 Future Improvements
+* Add password salting
+* Implement file hashing (File Integrity Checker)
+* Add password strength analyzer
+* Convert to executable (.exe)
+* Improve UI design
 
-Add password salting
+---
 
-Implement file hashing (file integrity checker)
+## 👩‍💻 Author
 
-Add password strength analyzer
+**Anusmita Ray Chaudhuri**
+B.Tech CSE | Cybersecurity Enthusiast
+Learning Web Security & Cryptography
 
-Convert to executable (.exe)
+---
 
-Improve UI design
+## 📜 License
+
+This project is licensed under the MIT License.
+
